@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 430" role="img" aria-label="floating sneaker on rocky trend landscape">
+  <defs>
+    <linearGradient id="heroUpper" x1="120" y1="62" x2="616" y2="248" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#efeee8"/>
+      <stop offset=".43" stop-color="#aeb0aa"/>
+      <stop offset="1" stop-color="#303434"/>
+    </linearGradient>
+    <linearGradient id="heroSole" x1="85" y1="222" x2="670" y2="310" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#f8f4ec"/>
+      <stop offset=".52" stop-color="#b8bab4"/>
+      <stop offset="1" stop-color="#292d2d"/>
+    </linearGradient>
+    <filter id="heroShadow" x="-18%" y="-30%" width="140%" height="170%">
+      <feDropShadow dx="0" dy="34" stdDeviation="24" flood-color="#000" flood-opacity=".36"/>
+    </filter>
+  </defs>
+  <ellipse cx="380" cy="348" rx="220" ry="35" fill="#000" opacity=".13"/>
+  <path d="M61 380c57-114 112-142 166-86 29-51 67-67 114-48 34-71 86-87 154-48 40 23 74 67 102 132 34-35 69-47 105-36 28 8 48 34 60 76H61Z" fill="#202323" opacity=".84"/>
+  <path d="M128 376c45-75 88-91 128-48 23-30 49-39 79-28 22-35 58-38 108-8 22 13 43 38 63 73H128Z" fill="#595c58" opacity=".58"/>
+  <g filter="url(#heroShadow)" transform="rotate(-12 380 198)">
+    <path d="M98 213c46-16 96-56 150-119 22-26 48-35 82-18 80 39 143 91 218 117 57 19 111 27 162 28-14 36-55 57-122 57H145c-62 0-88-21-47-65Z" fill="url(#heroUpper)"/>
+    <path d="M88 236c121 23 277 25 469 8 60-6 96 7 108 38-28 27-75 39-140 39H129c-63 0-91-21-78-58 7-16 17-25 37-27Z" fill="url(#heroSole)"/>
+    <path d="M179 148c85 14 163 38 235 77" fill="none" stroke="#f4f0e8" stroke-width="20" stroke-linecap="round" opacity=".7"/>
+    <path d="M238 104c55 21 110 55 164 101" fill="none" stroke="#333737" stroke-width="11" stroke-linecap="round" opacity=".56"/>
+    <path d="M181 184h222M219 138l-36 64M268 149l-34 59M318 170l-30 45" stroke="#171a1a" stroke-width="9" stroke-linecap="round" opacity=".52"/>
+    <path d="M141 289c38-25 75-25 112 0s74 25 112 0 75-25 112 0 75 25 112 0" fill="none" stroke="#f5f1e8" stroke-width="30" stroke-linecap="round" opacity=".9"/>
+    <path d="M186 302a30 18 0 1 0 0 1M298 302a30 18 0 1 0 0 1M410 302a30 18 0 1 0 0 1M522 302a30 18 0 1 0 0 1" fill="none" stroke="#333635" stroke-width="11"/>
+    <path d="M476 205c49 14 99 20 151 18" fill="none" stroke="#fff" stroke-width="14" stroke-linecap="round" opacity=".24"/>
+  </g>
+</svg>
