@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 210" role="img" aria-label="retro court sneaker">
+  <defs>
+    <linearGradient id="upper" x1="70" y1="56" x2="300" y2="150" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#fffdf6"/>
+      <stop offset=".52" stop-color="#dedbd2"/>
+      <stop offset="1" stop-color="#9fa39f"/>
+    </linearGradient>
+    <linearGradient id="gum" x1="42" y1="142" x2="330" y2="180" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#f6f1e5"/>
+      <stop offset=".62" stop-color="#c7b394"/>
+      <stop offset="1" stop-color="#6b604f"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-30%" width="140%" height="170%">
+      <feDropShadow dx="0" dy="15" stdDeviation="12" flood-color="#000" flood-opacity=".18"/>
+    </filter>
+  </defs>
+  <ellipse cx="180" cy="179" rx="126" ry="17" fill="#000" opacity=".1"/>
+  <g filter="url(#shadow)">
+    <path d="M56 135c28-12 51-34 73-67 9-13 22-18 39-12 35 13 61 43 97 60 31 15 62 21 94 22-5 17-25 28-60 28H77c-29 0-43-10-21-31Z" fill="url(#upper)"/>
+    <path d="M48 145c62 13 141 15 238 7 33-3 52 4 58 19-15 13-39 18-72 18H76c-35 0-50-11-43-28 4-8 9-13 15-16Z" fill="url(#gum)"/>
+    <path d="M122 90c30 8 58 25 84 48" fill="none" stroke="#b5a27f" stroke-width="10" stroke-linecap="round" opacity=".65"/>
+    <path d="M91 118h116M111 100l-17 28M137 102l-17 30M163 113l-15 24" stroke="#6b655a" stroke-width="4" stroke-linecap="round" opacity=".55"/>
+    <path d="M67 165h276" stroke="#fffaf0" stroke-width="10" stroke-linecap="round" opacity=".82"/>
+    <path d="M83 181l-10 10M127 181l-8 10M255 181l10 10M297 181l16 10" stroke="#6c5c43" stroke-width="6" stroke-linecap="round"/>
+  </g>
+</svg>
