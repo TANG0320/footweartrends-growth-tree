@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 210" role="img" aria-label="suede boot">
+  <defs>
+    <linearGradient id="boot" x1="88" y1="48" x2="276" y2="164" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#d8c2a4"/>
+      <stop offset=".48" stop-color="#b09269"/>
+      <stop offset="1" stop-color="#6c5138"/>
+    </linearGradient>
+    <linearGradient id="sole" x1="48" y1="145" x2="330" y2="178" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#eee1cf"/>
+      <stop offset=".58" stop-color="#a8865f"/>
+      <stop offset="1" stop-color="#4e3d2e"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-30%" width="140%" height="170%">
+      <feDropShadow dx="0" dy="16" stdDeviation="13" flood-color="#000" flood-opacity=".2"/>
+    </filter>
+  </defs>
+  <ellipse cx="180" cy="180" rx="125" ry="17" fill="#000" opacity=".1"/>
+  <g filter="url(#shadow)">
+    <path d="M91 52c38-7 67-2 88 15 9 32 13 62 12 89 47-3 90-2 129 5-11 18-34 28-69 28H79c-27 0-41-9-38-27 4-23 24-38 60-44-2-29-2-58 0-86Z" fill="url(#boot)"/>
+    <path d="M52 148c59 14 143 16 251 7 31-3 49 3 54 16-15 12-38 18-69 18H73c-31 0-45-10-40-26 4-8 10-13 19-15Z" fill="url(#sole)"/>
+    <path d="M99 56c32 12 61 12 86 0" stroke="#eadcc9" stroke-width="9" stroke-linecap="round" opacity=".72"/>
+    <path d="M113 69c25 7 50 7 74 0M111 84c24 6 49 6 73 0" stroke="#7b5e3f" stroke-width="3" stroke-linecap="round" opacity=".4"/>
+    <path d="M104 119c31 8 60 9 88 4" fill="none" stroke="#6b4f34" stroke-width="6" stroke-linecap="round" opacity=".42"/>
+    <path d="M82 177l-12 11M128 177l-8 11M246 177l10 11M294 177l18 11" stroke="#5c442f" stroke-width="6" stroke-linecap="round"/>
+  </g>
+</svg>
