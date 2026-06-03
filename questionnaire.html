@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>品牌成长树问卷 | FootwearTrends.cn</title>
+    <link rel="preload" as="image" href="./visuals/brand-tree-hero.png" />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body class="page-questionnaire">
+    <main class="diagnosis-shell">
+      <header class="flow-nav">
+        <a class="brand" href="./index.html">FootwearTrends.cn <span>品牌诊断</span></a>
+        <nav class="flow-steps" aria-label="诊断步骤" data-flow-steps>
+          <span class="active"><b>01</b> 品牌基础</span>
+          <span><b>02</b> 市场与产品</span>
+          <span><b>03</b> 运营与组织</span>
+          <span><b>04</b> 财务与资本</span>
+          <span><b>05</b> 未来规划</span>
+        </nav>
+        <a class="exit-link" href="./index.html">退出诊断</a>
+      </header>
+
+      <section class="diagnosis-layout">
+        <aside class="growth-axis">
+          <h1>品牌成长树</h1>
+          <p>完成诊断，点亮你的成长路径</p>
+          <ol class="stage-list" data-stage-list>
+            <li><b>05</b><span>上市阶段<small>品牌飞升并持续增长</small></span></li>
+            <li><b>04</b><span>成熟阶段<small>50+：规模化与品牌资产</small></span></li>
+            <li><b>03</b><span>成长阶段<small>10-50：稳定增长与市场拓展</small></span></li>
+            <li><b>02</b><span>孵化阶段<small>产品市场匹配</small></span></li>
+            <li class="active"><b>01</b><span>种子阶段<small>0-1：概念验证与品牌雏形</small></span></li>
+          </ol>
+        </aside>
+
+        <div class="tree-stage-visual">
+          <img src="./visuals/brand-tree-hero.png" alt="品牌成长树" data-tree-image />
+          <span class="glow"></span>
+          <div class="tree-hud">
+            <strong data-hud-score>12%</strong>
+            <span data-hud-label>种子正在发芽</span>
+          </div>
+        </div>
+
+        <section class="question-card" aria-label="品牌诊断问卷">
+          <div class="card-progress"><i data-progress-bar></i></div>
+          <p class="question-eyebrow" data-question-eyebrow>1.1 品牌基础</p>
+          <h2 data-question-title>你的品牌目前所处阶段是？</h2>
+          <p data-question-desc>这将帮助我们判断你的品牌在创业链路中的初始位置。</p>
+          <div class="answer-list" data-answer-list>
+          </div>
+          <div class="question-footer">
+            <button class="btn btn-light" data-prev>上一步</button>
+            <span data-counter>1/5</span>
+            <button class="btn btn-dark btn-next" data-next>下一步 <b>›</b></button>
+          </div>
+        </section>
+      </section>
+    </main>
+    <script src="./app.js"></script>
+  </body>
+</html>
