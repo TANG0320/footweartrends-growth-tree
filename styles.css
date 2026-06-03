@@ -3190,8 +3190,14 @@ button {
     padding: 26px 20px;
   }
 
+  .diagnosis-layout {
+    min-height: auto;
+    padding-top: 18px;
+  }
+
+  .growth-axis,
   .tree-stage-visual {
-    min-height: 300px;
+    display: none;
   }
 
   .stage-list {
