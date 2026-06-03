@@ -3070,6 +3070,10 @@ button {
     padding: 10px 7px 0;
   }
 
+  .about-shell .main-nav {
+    padding: 10px 7px 0;
+  }
+
   .brand {
     display: inline-grid;
     grid-template-columns: 32px 1fr;
