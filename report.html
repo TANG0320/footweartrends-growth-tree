@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>你的品牌成长报告 | FootwearTrends.cn</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body class="page-report">
+    <main class="report-shell">
+      <header class="report-nav">
+        <a class="brand" href="./index.html">FootwearTrends.cn <span>品牌诊断</span></a>
+        <div class="report-actions">
+          <button class="btn btn-light" data-report-action="download">下载报告</button>
+          <button class="btn btn-light" data-report-action="share">分享报告</button>
+        </div>
+      </header>
+
+      <section class="report-head">
+        <h1>你的品牌成长报告</h1>
+        <p data-report-date>诊断完成于 2024-05-20</p>
+      </section>
+
+      <section class="dashboard-grid">
+        <article class="dash-card score-card">
+          <h2>综合成长评分</h2>
+          <div class="score-row"><strong data-score>78</strong><span>/100</span><em data-grade>B+</em></div>
+          <h3 data-summary-title>表现良好，具备上市潜力</h3>
+          <p data-summary-copy>在固本化与组织能力上仍有提升空间</p>
+        </article>
+
+        <article class="dash-card radar-card">
+          <h2>五大维度表现</h2>
+          <div class="radar-wrap">
+            <svg viewBox="0 0 220 170" aria-label="五维雷达图">
+              <polygon points="110,8 198,62 164,158 56,158 22,62" class="grid"></polygon>
+              <polygon points="110,34 171,72 148,137 70,137 45,72" class="grid small"></polygon>
+              <line x1="110" y1="8" x2="110" y2="158"></line>
+              <line x1="22" y1="62" x2="198" y2="62"></line>
+              <line x1="56" y1="158" x2="198" y2="62"></line>
+              <line x1="164" y1="158" x2="22" y2="62"></line>
+              <polygon points="110,28 173,70 142,136 78,132 49,71" class="radar-fill" data-radar-polygon></polygon>
+            </svg>
+            <ul data-radar-list>
+              <li><span>品牌力</span><b>75</b></li>
+              <li><span>产品力</span><b>82</b></li>
+              <li><span>运营力</span><b>68</b></li>
+              <li><span>组织力</span><b>70</b></li>
+              <li><span>资本力</span><b>76</b></li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="dash-card risk-card">
+          <h2>关键风险提示</h2>
+          <div data-risk-list>
+            <div class="risk-row"><i class="risk-mid">中</i><span><strong>市场集中度高</strong><small>头部品牌竞争激烈，差异化需要强化</small></span></div>
+            <div class="risk-row"><i class="risk-low">弱</i><span><strong>渠道成熟度风险</strong><small>线上渠道稳定性强，线下渠道能力弱</small></span></div>
+            <div class="risk-row"><i class="risk-good">稳</i><span><strong>供应链弹性不足</strong><small>关键材料供应链单一供应商</small></span></div>
+          </div>
+        </article>
+
+        <article class="dash-card stage-card">
+          <h2>成长阶段定位</h2>
+          <div class="stage-compare">
+            <div><small>当前阶段</small><strong data-current-stage>成长阶段（10-50）</strong></div>
+            <b>›</b>
+            <div><small>目标阶段</small><strong data-next-stage>成熟阶段（50+）</strong></div>
+          </div>
+          <div class="stage-track" data-stage-track><i></i><i></i><i></i><i></i></div>
+          <p data-stage-copy>距离目标阶段，建议重点提升 3 个维度</p>
+        </article>
+
+        <article class="dash-card solution-card">
+          <h2>为你推荐的解决方案</h2>
+          <div class="solution-content">
+            <div class="solution-visual"></div>
+            <div>
+              <h3 data-solution-title>上市加速计划</h3>
+              <p data-solution-copy>从商业模型到资本对接的全流程陪伴</p>
+              <small data-solution-tags>上市路径规划 · 财务与治理优化 · 投资人对接</small>
+              <button class="btn btn-light">了解方案</button>
+            </div>
+          </div>
+        </article>
+      </section>
+
+      <p class="report-note">本报告基于你提供的信息及平台模型生成，仅供参考，不构成商业或投资建议。</p>
+    </main>
+    <script src="./app.js"></script>
+  </body>
+</html>
