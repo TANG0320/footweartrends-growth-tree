@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 210" role="img" aria-label="performance running shoe">
+  <defs>
+    <linearGradient id="upper" x1="60" y1="54" x2="320" y2="150" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#d9d8d1"/>
+      <stop offset=".48" stop-color="#7d817d"/>
+      <stop offset="1" stop-color="#2b2f2f"/>
+    </linearGradient>
+    <linearGradient id="sole" x1="45" y1="141" x2="335" y2="178" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#f1efe7"/>
+      <stop offset=".5" stop-color="#b8bbb6"/>
+      <stop offset="1" stop-color="#303333"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-30%" width="140%" height="170%">
+      <feDropShadow dx="0" dy="16" stdDeviation="13" flood-color="#000" flood-opacity=".22"/>
+    </filter>
+  </defs>
+  <ellipse cx="180" cy="180" rx="130" ry="18" fill="#000" opacity=".11"/>
+  <g filter="url(#shadow)">
+    <path d="M50 134c25-9 51-31 80-65 11-13 24-18 41-11 38 16 68 43 108 58 30 11 59 15 87 16-7 18-28 29-62 29H79c-29 0-45-11-29-27Z" fill="url(#upper)"/>
+    <path d="M44 147c72 12 161 14 270 4 31-3 48 3 52 18-15 13-38 19-70 19H73c-31 0-44-10-39-27 2-7 6-12 10-14Z" fill="url(#sole)"/>
+    <path d="M100 104c44 7 85 20 124 38" stroke="#e4e1d8" stroke-width="9" stroke-linecap="round" opacity=".68"/>
+    <path d="M131 84c29 11 59 28 90 52" stroke="#232625" stroke-width="5" stroke-linecap="round" opacity=".58"/>
+    <path d="M102 121h112M121 99l-16 30M147 104l-16 28M174 114l-15 22" stroke="#151718" stroke-width="4" stroke-linecap="round" opacity=".56"/>
+    <path d="M70 171c19-13 39-13 58 0s38 13 58 0 39-13 58 0 38 13 58 0" fill="none" stroke="#f4f0e6" stroke-width="15" stroke-linecap="round"/>
+    <path d="M92 177a16 10 0 1 0 0 1M150 177a16 10 0 1 0 0 1M208 177a16 10 0 1 0 0 1M266 177a16 10 0 1 0 0 1" fill="none" stroke="#303333" stroke-width="6"/>
+  </g>
+</svg>
