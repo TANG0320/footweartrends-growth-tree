@@ -3144,16 +3144,7 @@ button {
   }
 
   .nav-actions {
-    display: block;
-  }
-
-  .nav-actions .btn-light {
     display: none;
-  }
-
-  .nav-actions .btn-dark {
-    width: 100%;
-    min-height: 44px;
   }
 
   .hero-copy h1 {
