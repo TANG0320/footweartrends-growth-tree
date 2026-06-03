@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 210" role="img" aria-label="trail running shoe">
+  <defs>
+    <linearGradient id="upper" x1="70" y1="42" x2="282" y2="160" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#e9e5dc"/>
+      <stop offset=".48" stop-color="#b9b8b1"/>
+      <stop offset="1" stop-color="#555a58"/>
+    </linearGradient>
+    <linearGradient id="sole" x1="40" y1="126" x2="318" y2="168" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#f6f2e9"/>
+      <stop offset=".58" stop-color="#bcb9b0"/>
+      <stop offset="1" stop-color="#4b504f"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-30%" width="140%" height="170%">
+      <feDropShadow dx="0" dy="18" stdDeviation="14" flood-color="#000" flood-opacity=".26"/>
+    </filter>
+  </defs>
+  <ellipse cx="178" cy="178" rx="130" ry="18" fill="#1f2120" opacity=".16"/>
+  <g filter="url(#shadow)">
+    <path d="M48 129c26-8 54-28 80-62 12-16 25-20 43-14 42 13 78 49 115 67 25 12 48 17 72 20-5 16-22 25-52 26H74c-22 0-36-11-26-37Z" fill="url(#upper)"/>
+    <path d="M70 73c39 8 77 22 116 52 39 30 80 37 130 36-10 16-34 25-72 25H72c-31 0-43-14-34-36 12-28 30-47 32-77Z" fill="url(#sole)"/>
+    <path d="M72 142c61 8 121 8 182 2 31-3 58-1 86 7-12 13-32 18-60 18H73c-26 0-39-9-38-23 9-5 20-7 37-4Z" fill="#f2eee7"/>
+    <path d="M103 98c35 4 61 16 86 36" fill="none" stroke="#fff" stroke-width="7" stroke-linecap="round" opacity=".72"/>
+    <path d="M122 82c28 7 54 21 80 42" fill="none" stroke="#6b716f" stroke-width="5" stroke-linecap="round" opacity=".75"/>
+    <path d="M110 111h91M128 93l-17 28M151 102l-18 25M174 115l-18 21" fill="none" stroke="#292c2c" stroke-width="4" stroke-linecap="round" opacity=".42"/>
+    <path d="M75 168l-20 19M105 168l-13 18M137 168l-9 17M268 168l20 18M230 168l13 17" stroke="#343735" stroke-width="7" stroke-linecap="round"/>
+    <path d="M244 122c26 10 51 16 82 17" fill="none" stroke="#242726" stroke-width="8" stroke-linecap="round" opacity=".28"/>
+  </g>
+</svg>
