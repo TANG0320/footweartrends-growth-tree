@@ -111,6 +111,10 @@
       </section>
 
       <section id="models" class="insight-v2-section">
+        <aside class="data-disclaimer">
+          <strong>数据口径说明</strong>
+          <span>本页洞察基于公开内容平台观察、品牌上新信息和趋势案例拆解整理，用于方法论展示，不代表与相关品牌存在合作或授权关系。</span>
+        </aside>
         <div class="v2-title-row">
           <h2>为什么它们在爆发？</h2>
           <small>模型逻辑拆解</small>
@@ -166,10 +170,10 @@
           <div class="v2-title-row compact"><h2>免费方法论工具包</h2><a href="#toolkit">查看全部工具 <span>→</span></a></div>
           <p>直接可用的品牌判断框架</p>
           <div class="tool-grid">
-            <article><h3>品牌爆发判断框架</h3><p>5 大维度评估品牌是否具备爆发潜力</p></article>
-            <article><h3>趋势机会评估模型</h3><p>3 步判断趋势是否值得投入</p></article>
-            <article><h3>第一双鞋定位清单</h3><p>9 个关键问题找到你的切入点</p></article>
-            <article><h3>品牌差异化思考模板</h3><p>5 个维度打造独特的品牌识别点</p></article>
+            <button type="button" data-tool="burst"><h3>品牌爆发判断框架</h3><p>5 大维度评估品牌是否具备爆发潜力</p><span>打开模板 →</span></button>
+            <button type="button" data-tool="trend"><h3>趋势机会评估模型</h3><p>3 步判断趋势是否值得投入</p><span>打开模板 →</span></button>
+            <button type="button" data-tool="brief"><h3>第一双鞋定位清单</h3><p>9 个关键问题找到你的切入点</p><span>打开模板 →</span></button>
+            <button type="button" data-tool="difference"><h3>品牌差异化思考模板</h3><p>5 个维度打造独特的品牌识别点</p><span>打开模板 →</span></button>
           </div>
         </div>
         <div class="dark-next">
@@ -194,6 +198,12 @@
           <a href="./about.html#contact">小红书</a><a href="./about.html#contact">微博</a><a href="./about.html#contact">抖音</a><a href="./about.html#contact">微信</a>
         </nav>
       </footer>
+      <dialog class="tool-modal" data-tool-modal>
+        <button class="modal-close" type="button" data-close-tool>×</button>
+        <h2 data-tool-title>工具模板</h2>
+        <pre data-tool-content></pre>
+        <button class="btn btn-dark" type="button" data-copy-tool>复制模板</button>
+      </dialog>
     </main>
     <script src="./app.js"></script>
   </body>
